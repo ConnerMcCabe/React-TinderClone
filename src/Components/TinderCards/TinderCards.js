@@ -16,8 +16,8 @@ function TinderCards() {
   ]);
 
   return (
-    <div>
-      <h1>test Cards</h1>
+    <div className="cardContainer">
+      <h1>try the swipe</h1>
       {people.map((person) => (
         <TinderCard
           className="swipe"
